@@ -30,6 +30,7 @@ a{
 .image_equi
 {
     border-radius: 10px;
+    transition: all .1s ease-in-out;
 }
 .image_container
 {
@@ -39,7 +40,7 @@ a{
     position: relative;
     background-color: hsl(178, 100%, 50%);
     cursor: pointer;
-    transition: all .2s;
+   
 }
 .image_container:hover .image_equi
 {
